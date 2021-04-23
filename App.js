@@ -94,7 +94,7 @@ const Stack = createStackNavigator();
           }}
         />
         <Stack.Screen
-          name="Profile" component={SignUp}
+          name="Profile" component={ProfileCard}
           options={{
             title: 'Profile'
           }}
